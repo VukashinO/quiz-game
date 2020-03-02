@@ -1,9 +1,9 @@
 import React from 'react';
 
-function App(params) {
+function App() {
     return (
         <div>
-            hello
+            hello from develop branch
         </div>
     )
 }
