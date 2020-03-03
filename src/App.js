@@ -1,9 +1,13 @@
 import React from 'react';
+import Store from './Store';
+import Layout from './components/Layout';
 
 function App() {
     return (
         <div>
-            hello from develop branch
+            <Store>
+                <Layout />
+            </Store>
         </div>
     )
 }
